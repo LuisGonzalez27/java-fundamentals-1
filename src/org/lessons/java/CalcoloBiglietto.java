@@ -6,10 +6,10 @@ public class CalcoloBiglietto {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Inserisci quanti kilometri vuoi percorrere:");
+        System.out.print("Inserisci quanti kilometri vuoi percorrere: ");
         int kmPercorrere = Integer.parseInt(scan.nextLine());
 
-        System.out.println("Inserisci la tua eta:");
+        System.out.print("Inserisci la tua eta: ");
         int etaPasseggero = Integer.parseInt(scan.nextLine());
 
         double prezzoBiglietto = 0.21 * kmPercorrere;
