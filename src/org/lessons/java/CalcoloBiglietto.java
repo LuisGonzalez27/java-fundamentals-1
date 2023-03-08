@@ -14,6 +14,8 @@ public class CalcoloBiglietto {
 
         double prezzoBiglietto = 0.21 * kmPercorrere;
 
+        scan.close();
+
         if(etaPasseggero < 18 ){
             double minorenne = (prezzoBiglietto * 20) / 100;
             double prezzoFinale = prezzoBiglietto - minorenne;
