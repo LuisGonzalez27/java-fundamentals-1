@@ -18,7 +18,7 @@ public class CalcoloBiglietto {
             double minorenne = (prezzoBiglietto * 20) / 100;
             double prezzoFinale = prezzoBiglietto - minorenne;
 
-            //uso DecimalFormat  dato che voglio una cifre decimali
+            //uso DecimalFormat  dato che voglio solo una cifra decimale
             DecimalFormat decimali = new DecimalFormat("#.#");
             System.out.println("Prezzo biglietto con sconto minorenne: " + decimali.format(prezzoFinale) + " EUR");
         }
